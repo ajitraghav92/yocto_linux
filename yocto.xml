@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <remote name="github" fetch="https://github.com/" />
+  <default remote="github" revision="scarthgap" />
+
+  <project name="yoctoproject/poky" path="poky" revision="scarthgap" />
+  <project name="openembedded/meta-openembedded" path="meta-openembedded" revision="scarthgap" />
+  <project name="meta-yocto/meta-bbb" path="meta-bbb" revision="main" />
+  <project name="<your-username>/meta-custom" path="meta-custom" revision="main" />
+</manifest>
