@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Remote definition -->
-  <remote name="torvalds" fetch="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/" />
+  <remote name="torvalds" fetch="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git" />
 
-  <!-- Linux kernel project -->
-  <project name="linux" path="sources/linux" revision="v6.18-rc4" remote="torvalds" />
+  <!-- Linux kernel project at specific commit -->
+  <project name="linux" path="sources/linux" revision="6146a0f1dfae5d37442a9ddcba012add260bceb0" remote="torvalds" />
 </manifest>
