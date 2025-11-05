@@ -6,5 +6,7 @@
   <project name="yoctoproject/poky" path="poky" revision="scarthgap" />
   <project name="openembedded/meta-openembedded" path="meta-openembedded" revision="scarthgap" />
   <project name="meta-yocto/meta-bbb" path="meta-bbb" revision="main" />
+  <!--
   <project name="<your-username>/meta-custom" path="meta-custom" revision="main" />
+  -->
 </manifest>
