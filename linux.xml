@@ -1,8 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
   <!-- Remote definition for the official Linux kernel -->
-  <remote name="torvalds" fetch="https://git.kernel.org/pub/scm/linux/kernel/git/torvalds/linux.git" />
-
-  <!-- Project: Linux kernel v6.18-rc4 -->
-  <project name="linux" path="sources/linux" revision="v6.18-rc4" remote="torvalds" />
+   <remote name="github" fetch="https://github.com/" />
+   <project name="torvalds/linux" path="sources/linux" revision="v6.18-rc4" />
 </manifest>
