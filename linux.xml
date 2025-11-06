@@ -2,5 +2,5 @@
 <manifest>
   <!-- Remote definition for the official Linux kernel -->
    <remote name="github" fetch="https://github.com/" />
-   <project name="torvalds/linux" path="sources/linux" revision="v6.18-rc4" />
+   <project name="torvalds/linux" path="sources/linux" revision="master" />
 </manifest>
